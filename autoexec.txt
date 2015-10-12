@@ -1,2 +1,105 @@
-here goes some stuff
+//James autoexec
 
+developer "1"
+con_enable "1"
+con_filter_enable "2"
+con_filter_text_out "game:mapgroupname"
+con_filter_text "game:map"
+
+//buy binds
+bind "ins" "buy galilar; buy famas;"
+bind "home" "buy ak47; buy m4a1;"
+bind "del" "buy ssg08;"
+bind "end" "buy sg556; buy aug;"
+bind "uparrow" "buy awp;"
+bind "leftarrow" "buy p90;"
+bind "downarrow" "buy p250;"
+bind "rightarrow" "buy tec9; buy fiveseven;"
+bind "f8" "buy molotov; buy incgrenade;"
+bind "f9" "buy smokegrenade;"
+bind "f10" "buy flashbang;"
+bind "f11" "buy hegrenade;"
+bind "f12" "buy vest; buy vesthelm; buy defuser;"
+
+bind "ENTER" "buy ak47; buy m4a1;slot1;drop"
+bind "BACKSPACE" "buy galilar; buy famas;slot1;drop"
+bind "=" "buy awp;slot1;drop"
+bind "-" "buy ssg09;slot1;drop"
+bind "[" "buy p90;slot1;drop"
+bind "]" "buy ump45;slot1;drop"
+
+//control binds
+bind "MOUSE1" "+attack"
+bind "MOUSE2" "+attack2"
+bind "MOUSE3" "use weapon_knife" 
+bind "MOUSE4" "use weapon_flashbang"
+bind "MOUSE5" "use weapon_smokegrenade"
+bind "MWHEELUP" "invnextnongrenade"
+bind "MWHEELDOWN" "+jump"
+bind "capslock" "use weapon_hegrenade"
+bind "f" "use weapon_incgrenade;use weapon_molotov"
+bind "b" noclip
+
+alias +jumpthrow "+jump; -attack; -attack2"
+alias -jumpthrow -jump
+bind "v" "+jumpthrow"
+
+
+bind "0" "slot10"
+bind "1" "slot1"
+bind "2" "slot2"
+bind "3" "slot3"
+bind "4" "slot4"
+bind "5" "slot5"
+bind "6" "slot6"
+bind "9" "slot9"
+bind "a" "+moveleft"
+bind "b" "buymenu"
+bind "c" "radio3"
+bind "d" "+moveright"
+bind "e" "+use"
+bind "g" "drop"
+bind "j" "cheer"
+bind "p" "noclip"
+bind "q" "lastinv"
+bind "r" "+reload"
+bind "s" "+back"
+bind "u" "messagemode2"
+bind "w" "+forward"
+bind "x" "radio2"
+bind "y" "messagemode"
+bind "z" "radio1"
+bind "`" "toggleconsole"
+
+
+bind "SPACE" "+jump"
+bind "ESCAPE" "cancelselect"
+bind "PGUP" "use weapon_c4;drop"
+bind "PGDN" "+lookatweapon"
+bind "SHIFT" "+speed"
+bind "ALT" "+voicerecord"
+bind "CTRL" "+duck"
+
+rate "128000"
+cl_interp "0"
+cl_interp_ratio "1"
+cl_cmdrate "128"
+cl_updaterate "128"
+fps_max "999"
+
+cl_radar_always_centered "0"
+cl_radar_scale "0.45"
+cl_hud_color "8"
+cl_show_clan_in_death_notice "0"
+lobby_voice_chat_enabled "0"
+cl_disablefreezecam "1"
+cl_autowepswitch "0"
+cl_use_opens_buy_menu "0"
+
+net_graph "1"
+net_graphheight "9999"
+bind "TAB" "+scorenet"
+alias "+scorenet" "+showscores; net_graphheight 0"
+alias "-scorenet" "-showscores; net_graphheight 9999"
+
+host_writeconfig
