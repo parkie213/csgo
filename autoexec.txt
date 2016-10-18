@@ -101,5 +101,31 @@ net_graphheight "9999"
 bind "TAB" "+scorenet"
 alias "+scorenet" "+showscores; net_graphheight 0"
 alias "-scorenet" "-showscores; net_graphheight 9999"
+  
+
+cl_crosshair_drawoutline "-"
+cl_crosshair_dynamic_maxdist_splitratio "= "= "0.35"" ( def. "0.35" ) min. 0.000000 max. 1.000000 client archive ss - If using cl_crosshairstyle 2, this is the ratio used to determine how long the i"
+cl_crosshair_dynamic_splitalpha_innermod "= "= "1"" ( def. "1" ) min. 0.000000 max. 1.000000 client archive ss - If using cl_crosshairstyle 2, this is the alpha modification that will be used f"
+cl_crosshair_dynamic_splitalpha_outermod "0.300000"
+cl_crosshair_dynamic_splitdist "= "= "7"" ( def. "7" ) client archive ss        - If using cl_crosshairstyle 2, this is the distance that the crosshair pips will"
+cl_crosshair_outlinethickness "1"
+cl_crosshair_sniper_width "= "= "1"" ( def. "1" ) client archive ss             - If >1 sniper scope cross lines gain extra width (1 for single-pixel hairline)"
+cl_crosshairalpha "255"
+cl_crosshaircolor "1"
+cl_crosshaircolor_b "0"
+cl_crosshaircolor_g "0"
+cl_crosshaircolor_r "0"
+cl_crosshairdot "0"
+cl_crosshairgap "-1"
+cl_crosshairgap_useweaponvalue "0"2"
+cl_crosshairscale "= "= "1.3"" ( def. "0" ) client archive ss                   - Crosshair scaling factor (deprecated)"
+cl_crosshairsize "3"
+cl_crosshairstyle "4"
+cl_crosshairthickness "1"
+cl_crosshairusealpha "1"
+cl_fixedcrosshairgap "3"
+
+net_client_steamdatagram_enable_override "1"
+
 
 host_writeconfig
