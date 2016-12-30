@@ -21,13 +21,6 @@ bind "f10" "buy flashbang;"
 bind "f11" "buy hegrenade;"
 bind "f12" "buy vest; buy vesthelm; buy defuser;"
 
-bind "ENTER" "buy ak47; buy m4a1;slot1;drop"
-bind "BACKSPACE" "buy galilar; buy famas;slot1;drop"
-bind "=" "buy awp;slot1;drop"
-bind "-" "buy ssg09;slot1;drop"
-bind "[" "buy p90;slot1;drop"
-bind "]" "buy ump45;slot1;drop"
-
 //control binds
 bind "MOUSE1" "+attack"
 bind "MOUSE2" "+attack2"
@@ -70,7 +63,6 @@ bind "x" "radio2"
 bind "y" "messagemode"
 bind "z" "radio1"
 bind "`" "toggleconsole"
-
 
 bind "SPACE" "+jump"
 bind "ESCAPE" "cancelselect"
